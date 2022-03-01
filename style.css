@@ -1,0 +1,16 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px 30% 100% 30%;
+  background-color: #070715;
+  color: #e5e5d7;
+}
+html hr {
+  width: 100%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.links a {
+  color: #9f9f4f;
+}
