@@ -1,0 +1,28 @@
+# Main skript components for Lif3st3alC.minehut.gg
+
+command /dc:
+    permission: lif3st3alc.discordlink
+    aliases: /discord
+    trigger:
+        send "&2Discord invite link: https://discord.gg/jXhMGRjczm"
+
+# builder/owner/moderator/admin/helper/member/skripter/dev ranks
+on chat:
+    if player has permission "lif3st3alc.ranks.owner":
+        set chat format to "&4Owner - [player]&7: &b[message]"
+    else if player has permission "lif3st3alc.ranks.builder":
+        set chat format to "&bBuilder - [player]&7: &9[message]"
+    else if player has permission "lif3st3alc.ranks.moderator":
+        set chat format to "&aModerator - [player]&7: &e[message]"
+    else if player has permission "lif3st3alc.ranks.moderator":
+        set chat format to "&aModerator - [player]&7: &e[message]"
+    else if player has permission "lif3st3alc.ranks.admin":
+        set chat format to "&5Admin - [player]&7: &6[message]"
+    else if player has permission "lif3st3alc.ranks.helper":
+        set chat format to "&5Helper - [player]&7: &6[message]"
+    else if player has permission "lif3st3alc.ranks.skripter":
+        set chat format to "&3Skripter - [player]&7: &5[message]"
+    else if player has permission "lif3st3alc.ranks.dev":
+        set chat format to "&cDeveloper - [player]&7: &a[message]"
+    else: #default message format
+        set chat format to "&7Member - [player]&7: &f[message]"
