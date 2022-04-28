@@ -12,10 +12,14 @@ html hr {
 }
 
 /* if width < 1280px, fill screen */
-@media only screen and (max-width: 1280px) {
-  html {
-    padding: 10px 0% 100% 0% !important;
-  }
+@media only screen and (max-width: 1280px) {
+  html {
+    padding: 10px 10% 100% 10%;
+  }
+}
+
+ul {
+  padding: 0 0 0 0;
 }
 
 .links a {
