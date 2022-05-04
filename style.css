@@ -4,6 +4,7 @@ html {
   padding: 10px 30% 100% 30%;
   background-color: #151515;
   background: url(images/splitriver.png);
+  background-size: cover; /* image will span the whole screen */
   color: #d0d0d0;
 }
 html hr {
