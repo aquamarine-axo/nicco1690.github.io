@@ -3,6 +3,7 @@ html {
   font-size: 14px;
   padding: 10px 30% 100% 30%;
   background-color: #151515;
+  background: url(images/splitriver.png);
   color: #d0d0d0;
 }
 html hr {
