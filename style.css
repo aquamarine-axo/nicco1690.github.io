@@ -13,6 +13,11 @@ html hr {
   margin-left: 0;
 }
 
+.transparentbg {
+	background-color: #1515157f;
+	padding: 20px;
+}
+
 /* if width < 1280px, fill screen */
 @media only screen and (max-width: 1280px) {
   html {
