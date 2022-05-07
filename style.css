@@ -13,9 +13,10 @@ html hr {
   margin-left: 0;
 }
 
+/* github pages, please update this section this time */
 .transparentbg {
-	background-color: #1515157f;
-	padding: 20px;
+  background-color: #1515157f;
+  padding: 20px;
 }
 
 /* if width < 1280px, fill screen */
