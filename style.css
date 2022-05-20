@@ -2,10 +2,8 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding: 10px 30% 100% 30%;
-  background-color: #151515;
-  background: url(images/splitriver.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(20,0,36);
+  background: linear-gradient(90deg, rgba(20,0,36,1) 0%, rgba(0,62,255,1) 100%);
   color: #d0d0d0;
 }
 html hr {
